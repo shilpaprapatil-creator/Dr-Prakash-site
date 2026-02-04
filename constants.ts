@@ -1,0 +1,2 @@
+export const PROFILE_IMAGE_URL = "https://res.cloudinary.com/dsrbf5jcz/image/upload/v1770133707/1747488423622_dhyvkd.jpg";
+export const FLAGSHIP_IMAGE_URL = "https://res.cloudinary.com/dsrbf5jcz/image/upload/v1770134903/download_vd3npu.jpg";
