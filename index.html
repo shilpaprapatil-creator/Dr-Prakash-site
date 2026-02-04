@@ -16,6 +16,7 @@
         font-family: 'Inter', sans-serif;
         background-color: #020617;
         margin: 0;
+        color: #e2e8f0;
       }
       h1, h2, h3, h4, .font-heading {
         font-family: 'Outfit', sans-serif;
@@ -56,11 +57,10 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
-  <body class="text-slate-200 antialiased grid-bg">
+  <body class="antialiased grid-bg">
     <div id="root"></div>
-    <!-- Entry point for the build tool -->
-    <script type="module" src="/index.tsx"></script>
+    <!-- Removed leading slash and importmap. Vite will handle this relative path during build. -->
+    <script type="module" src="index.tsx"></script>
   </body>
 </html>
